@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from 'react-bootstrap/Navbar'
 
 export default function Home() {
   return (
@@ -7,11 +8,20 @@ export default function Home() {
       <Head>
         <title>HopLiteJS</title>
         <link rel="icon" href="/favicon.ico" />
+
+
+
+        
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://github.com/oslabs-beta/hoplitejs">HopLite.js!</a>
+          Welcome to <a href="https://github.com/oslabs-beta/hoplitejs">HopLite.js!</a> <img
+        src="/hopLiteLogo.png"
+        alt="Picture of the author"
+        width={70}
+        height={70}
+      />
         </h1>
 
         <p className={styles.description}>
