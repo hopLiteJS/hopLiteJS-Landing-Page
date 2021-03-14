@@ -1,3 +1,10 @@
+import NavBar from "../../components/NavBar.js"
+
 export default function About() {
-  return <h1>About</h1>
+  return (
+    <div className={"about-page"}>
+      <NavBar />
+      <h1>About</h1>
+    </div>
+  )
 }
