@@ -15,3 +15,24 @@ a {
 * {
   box-sizing: border-box;
 }
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.welcomeHeader {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.WhyHopLiteContainer {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: black;
+  border-width: 5px;
+  border-style: groove;
+  widows: 80%;
+}

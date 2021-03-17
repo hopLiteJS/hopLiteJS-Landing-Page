@@ -42,6 +42,7 @@ export default function NavBar() {
         <Link href="/posts/Documentation" passHref><Button className={classes.buttonClass}>Documentation</Button></Link>
         <Link href="/posts/More-Info" passHref><Button className={classes.buttonClass}>More-Info</Button></Link>
         <Link href="/posts/Team-Members" passHref><Button className={classes.buttonClass}>Team-Members</Button></Link>
+        <Link href="/posts/BlogPosts" passHref><Button className={classes.buttonClass}>Blog Posts</Button></Link>
           {/* </Grid> */}
         </Toolbar>
       </AppBar>
