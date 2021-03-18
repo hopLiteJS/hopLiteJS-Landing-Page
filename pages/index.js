@@ -10,7 +10,6 @@ import GetStarted from '../components/LandingPage/GetStarted'
 import ContactUs from '../components/LandingPage/ContactUs'
 import Footer from '../components/LandingPage/Footer'
 import Image from 'next/image'
-
 export default function Home() {
   return (
     <div>
@@ -26,6 +25,7 @@ export default function Home() {
       <ExampleCode />
       <GetStarted />
       <ContactUs />
+
       </div> 
       <main >
       
