@@ -17,10 +17,10 @@ export default function Home() {
         <title>HopLiteJS</title>
 
       </Head>
-      <div>
+      <div className = "containerTest">
+      <Logo></Logo>
       <NavBar /> 
       <Welcome/>
-      <Logo />
       <WhyHopLite />
       <ExampleCode />
       <GetStarted />

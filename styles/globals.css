@@ -1,38 +1,43 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: rgb(166, 241, 241);
+
+body {}
+.containerTest{
+  background-color: rgb(34, 107, 202);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  column-gap: 0px;
+  grid-template-areas:
+    "NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar NavBar"
+    ". welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader . Logo Logo Logo Logo ."
+    ". welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader welcomeHeader . Logo Logo Logo Logo ."
+    ". . . . . . . . . Logo Logo Logo Logo ."
+    ". WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite WhyHopLite ."
+    ". GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted . ExampleCode ExampleCode ExampleCode ExampleCode ."
+    ". GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted . ExampleCode ExampleCode ExampleCode ExampleCode ."
+    ". GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted . ExampleCode ExampleCode ExampleCode ExampleCode ."
+    ". GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted . ExampleCode ExampleCode ExampleCode ExampleCode ."
+    ". GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted GetStarted . ExampleCode ExampleCode ExampleCode ExampleCode ."
+    "ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs ContactUs";
+}
+.NavBar { grid-area: NavBar; }
+.GetStarted { grid-area: GetStarted;
+  margin-top: -150px; }
+.ExampleCode { grid-area: ExampleCode;
+  margin-top: -150px; }
+.ContactUs { grid-area: ContactUs; 
+  margin-top: -800px;
+}
+.WhyHopLite { 
+  margin-top: -200px;
+  grid-area: WhyHopLite;
+ }
+.welcomeHeader { 
+  color:rgb(0, 0, 0);
+  grid-area: welcomeHeader;
+  font-size: 100px; }
+.Logo { grid-area: Logo;}
+.Footer {
+  margin-top: -900px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.welcomeHeader {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.WhyHopLiteContainer {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: black;
-  border-width: 5px;
-  border-style: groove;
-  widows: 80%;
-}
