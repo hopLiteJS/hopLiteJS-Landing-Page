@@ -7,8 +7,6 @@ import Button from "@material-ui/core/Button";
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Link from 'next/link'
-import Logo from './Logo'
-import LogoSmall from './LogoSmall'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,7 +33,6 @@ export default function NavBar() {
           {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton> */}
-          <LogoSmall></LogoSmall>
           <Typography variant="h6" className={classes.title}>
            
             <Link href="/" passHref><Button className={classes.buttonClass}>HopliteJS</Button></Link>
